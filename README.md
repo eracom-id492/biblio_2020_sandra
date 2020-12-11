@@ -11,6 +11,6 @@ Ce dossier contiendra des exemples de codes pour construire un site web.
 - Un exemple de chargement de webfont depuis un fichier
 
 --
-Le résultat est visible [ici](https://eracom-id492.github.io/test_git_stanner/).
+Le résultat est visible [ici](...).
 
 > *Ceci est un fichier README avec la syntaxe Markdown. Voir [ici](https://cours-web.ch/divers/markdown/).*

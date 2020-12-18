@@ -37,10 +37,24 @@ li:hover {
   background-color: #111;
 }
 
+main{
+  margin-left: 20px;
+  display: flex;
+  align-items:flex-start;
+}
+.col-6{
+    margin-right: 20px;
+}
+.main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mainbutton{
+background-color: blue;
+}
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  margin-left: 20px;
   font-size: 42px;
   color: #333;
 }
@@ -49,18 +63,95 @@ h3{
   padding: 10px;
   font-size: 26px;
 }
-h2 .typo1{
+h2{
   font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
-  margin-left: 20px;
   font-size: 22px;
   color: #333;
+  margin-bottom: 5px;
+}
+p{
+  color: blue;
+  margin-top: 0px;
+}
+.img-accueil img{
+  width: 100%;
+  margin-top: 50px;
 }
 
-h2 .typo2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: lighter;
-  margin-left: 20px;
-  font-size: 22px;
-  color: #333;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.mep1{
+  display: flex;
+}
+.container1{
+  width: 200px;
+  height: 150px;
+  background-color: red;
+}
+.container2{
+  width: 200px;
+  height: 150px;
+  background-color: green;
+}
+.container3{
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+}
+.container4{
+  width: 50px;
+  height: 150px;
+  background-color: red;
+}
+.container5{
+  width: 500px;
+  height: 150px;
+  background-color: green;
+}
+.container6{
+  width: 50px;
+  height: 150px;
+  background-color: blue;
+}
+.container7{
+  width: 275px;
+  height: 150px;
+  background-color: red;
+}
+.container8{
+  width: 275px;
+  height: 150px;
+  background-color: green;
+}
+.container9{
+  width: 50px;
+  height: 150px;
+  background-color: blue;
+}
+.galerie1{
+
+
 }

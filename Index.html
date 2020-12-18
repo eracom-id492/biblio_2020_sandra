@@ -12,15 +12,46 @@
 <body>
   <nav>
     <ul>
-      <li><a href="index.html"><h3>Menu</h3></a></li>
-      <li><a href="galeries.html"><h3>Exemples de Galerie</h3></a></li>
+      <li><div class="mainbutton"><a href="index.html"> <h3>Accueil</h3></a></div></li>
+      <li><a href="galerie.html"><h3>Exemple de Galerie</h3></a></li>
       <li><a href="mep.html"><h3>Exemples de Mise en page</h3></a></li>
     </ul>
   </nav>
-  <h1>Biblio_20_Sandra</h1>
-  <h2 class="typo1">Chargement de webfont Google</h2>
-  <p> < link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></p>
-  <h2 class="typo2">Chargement de webfont depuis un fichier</h2>
-  <p>@font-face {font-family: "Montserrat";src: url("/typo/Montserrat-Thin.ttf") format("ttf");}</p>
+  <main>
+    <div class="col-6">
+    <h1>Media Query</h1>
+    <h2 class="typo1">Couleur de fond</h2>
+    <p>@media only screen and (max-width: 600px) {body {background-color: lightblue;}}</p>
+    <h2 class="typo1">Couleur de fond</h2>
+    <p>.col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+    }</p>
+    </div>
+    <div class="col-6">
+    <h1>Web font</h1>
+      <h2 class="typo1">Chargement de webfont Google</h2>
+        <p> < link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></p>
+      <h2 class="typo2">Chargement de webfont depuis un fichier</h2>
+        <p>@font-face {font-family: "Montserrat";src: url("/typo/Montserrat-Thin.ttf") format("ttf");}</p>
+  </div>
+  </main>
+  <div class="img-accueil">
+  <img src="img/biblio-illu.jpg" alt="illustration coding">
+  </div>
 </body>
 </html>
